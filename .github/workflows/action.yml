@@ -29,4 +29,7 @@ jobs:
     - name: su
       run: |
         python ./upload.py -n 1 -u ${{ secrets.USER_O }} -p ${{ secrets.PASS_O }} -f ./data/upload.txt
+    - name: lu
+      run: |
+        python ./upload.py -n 1 -u ${{ secrets.USER_L }} -p ${{ secrets.PASS_L }} -f ./data/upload.txt
 
