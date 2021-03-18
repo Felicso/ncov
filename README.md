@@ -33,6 +33,7 @@ pip install -r requirements.txt
 }
 ```
 2. 上报信息
+3. 
 
 默认情况下进行定时填报，但如果需要立即进行填报，请加入`-n 1`参数，例如：
 ```shell script
