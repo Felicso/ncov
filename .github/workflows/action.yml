@@ -26,6 +26,7 @@ jobs:
     - name: 石
       run: |
         python ./upload.py -n 1 -u ${{ secrets.USER_ONE }} -p ${{ secrets.PASS_ONE }} -f ./data/upload.txt
+        
     - name: su
       run: |
         python ./upload.py -n 1 -u ${{ secrets.USER_O }} -p ${{ secrets.PASS_O }} -f ./data/upload.txt
