@@ -29,16 +29,4 @@ jobs:
         
     - name: ZhangYuqi
       run: |
-        python ./upload.py -n 1 -u ${{ secrets.USER_O }} -p ${{ secrets.PASS_O }} -f ./data/upload.txt
-        
-    - name: lu
-      run: |
-        python ./upload.py -n 1 -u ${{ secrets.USER_L }} -p ${{ secrets.PASS_L }} -f ./data/upload.txt
-
-    - name: h
-      run: |
-        python ./upload.py -n 1 -u ${{ secrets.USER_h }} -p ${{ secrets.PASS_h }} -f ./data/upload.txt
-        
-    - name: g
-      run: |
-        python ./upload.py -n 1 -u ${{ secrets.USER_G }} -p ${{ secrets.PASS_G }} -f ./data/upload.txt
+        python ./upload.py -n 1 -u ${{ secrets.USER_ZhangYuqi }} -p ${{ secrets.PASS_ZhangYuqi }} -f ./data/upload.txt
