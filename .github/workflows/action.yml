@@ -30,3 +30,4 @@ jobs:
     - name: ZhangYuqi
       run: |
         python ./upload.py -n 1 -u ${{ secrets.USER_ZhangYuqi }} -p ${{ secrets.PASS_ZhangYuqi }} -f ./data/upload.txt
+
